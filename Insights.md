@@ -1,0 +1,10 @@
+## Further Insights:
+
+* _Note:_ All the follwing files are stored in json format and can be opened in any editor.
+* Application settings are stored in _C:\\Users\\Username\\AppData\\Local\\TumblThree\\_. 
+* You can use the _portable mode_ (settings->general) to stores the application settings in the same folder as the executable.
+* For each blog there is also a database (serialized class) file in the _Index_ folder of the download location named after the _blogname_.tumblr. Here blog relative information is stored like what files have been downloaded, the url of the blog and when it was added. This allows you to move your downloaded files (photos, videos, audio files) to a different location without interfering with the download process.
+* Some settings aren't hooked up to the graphical user interface. It's possible to view all TumblThree settings by opening the settings.json in any editor located in _C:\\Users\\Username\\AppData\\Local\\TumblThree\\_. Their names should be self explainatory. Some notable settings to further fine tune the application include:
+  * BufferSize: Allows to set the buffer size for downloading binary files (photos, videos) in multiples of 4KB. The default is 2MB, thus the BufferSize has a value of 512. Increasing this value reduces disk fragmentation as more of the file is kept in the memory before it gets written out to the disk but increases the memory usage.
+  * MaxNumberOfRetries: Sets the maximum number of retries if a tumblr server forcefully closes the connection. This might regularly happen on the tumblr video host (vt.tumblr.com) if too many connections were opened in parallel. After the limit is exhausted, the file is left truncated, but is also not registered as a successful downloaded. Thus, the file can be resumed in the next crawl.
+  * TumblrHosts: Contains a list of hosts which is tried for downloading \_raw photos if the photo size is set to _raw_. If none of the hosts contains the \_raw version, the actually scanned host is tried with the next lower resolution (1028). 
