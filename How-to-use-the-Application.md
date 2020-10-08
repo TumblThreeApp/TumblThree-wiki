@@ -6,7 +6,7 @@
 * To start the download process, click on 'Crawl'. The application will regularly check for (new) blogs in the queue and start processing them, until you stop the application by pressing 'Stop'. So, you can either add blogs to the queue via 'Add to Queue' or double click first and then click 'Crawl', or you start the download process first and add blogs to the queue afterwards.
 * A light blue bar left to the blog in the queue indicates a actively downloading blog.
 * The blog manager on the left side also indicates the state of each blog. A red background shows an offline blog, a green background an actively crawling blog and a purple background an enqueued blog.
-* You change the download location, the number of parallel connections, the default backup settings for each newly added blog and various other settings in the 'Settings'. 
+* You change the download location, the number of concurrent connections, the default backup settings for each newly added blog and various other settings in the 'Settings'. 
 * In the Details window you can view statistics of your blog and set blog specific options. You can here what kind of post type (photo, video, audio, text, conversation, quote, link) to download.
 * For downloading only tagged posts, you'll have to do some steps:
   1. Add the blog url.
