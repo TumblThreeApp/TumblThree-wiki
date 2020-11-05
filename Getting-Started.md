@@ -1,5 +1,3 @@
-## Getting Started:
-
 The default settings should cover most users. You should only have to change the download location and the kind of posts you want to download. For this, in the Settings (click on the Settings button in the lower panel of the main user interface) you might want to change:
 * General -> Download location: Specifies where to download the files. The default is in a folder _Blogs_ relative to the TumblThree.exe
 * Blog -> Settings applied to each blog upon addition:
