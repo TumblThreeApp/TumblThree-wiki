@@ -29,7 +29,7 @@ _Read this in other languages: [简体中文](https://github.com/Emphasia/TumblT
 * Download of photo, video (only tumblr.com hosted), text, audio, quote, conversation, link and question posts.
 * Download meta information for photo, video and audio posts.
 * Downloads inlined photos and videos (e.g. photos embedded in question&answer posts).
-* Download of \_raw image files (original/higher resolution pictures).
+* Download of all image sizes possible (SVC, API only for newer blogs, higher resolution not possible for old blogs *1).
 * Support for downloading Imgur.com, Gfycat.com and Webmshare.com linked files in tumblr posts.
 * Download of safe mode/NSFW blogs.
 * Allows to download only original content of the blog and skip reblogged posts.
@@ -42,23 +42,25 @@ _Read this in other languages: [简体中文](https://github.com/Emphasia/TumblT
 ### Liked/by backup/download:
 
 * A downloader for downloading "liked by" photos and videos instead of a tumblr blog (e.g. https://www.tumblr.com/liked/by/wallpaperfx/) (login required).
-* Download of \_raw image files (original/higher resolution pictures).
+* Download of all image sizes possible (SVC, API only for newer blogs, higher resolution not possible for old blogs *1).
 * Allows to download posts in a defined time span. 
 
 ### Tumblr search backup/download:
 
 * A downloader for downloading photos and videos from the tumblr search (e.g. http://www.tumblr.com/search/my+keywords).
-* Download of \_raw image files (original/higher resolution pictures). 
+* Download of all image sizes possible (SVC, API only for newer blogs, higher resolution not possible for old blogs *1).
 
 ### Tumblr tag search backup/download:
 
 * A downloader for downloading photos and videos from the tumblr tag search (e.g. http://www.tumblr.com/tagged/my+keywords) (login required).
-* Download of \_raw image files (original/higher resolution pictures). 
+* Download of all image sizes possible (SVC, API only for newer blogs, higher resolution not possible for old blogs *1).
 * Allows to download posts in a defined time span.
+
+_*1 [Tumblr raw image files are inaccessible as of August 10, 2018](https://github.com/johanneszab/TumblThree/issues/261)_
 
 ## Download:
 
 Latest releases can be found [here](https://github.com/TumblThreeApp/TumblThree/releases).
 
 ## Screenshot:
-![TumblThree Main UI](http://www.jzab.de/sites/default/files/images/tumblthree.png?raw=true "TumblThree Main UI")
+![TumblThree Main UI](images/tumblthree.png "TumblThree Main UI")
