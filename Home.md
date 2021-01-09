@@ -7,7 +7,7 @@ TumblThree is the code rewrite of [TumblTwo](https://github.com/johanneszab/Tumb
 * Source code at github (Written in C# using WPF and MVVM).
 * Multiple concurrent downloads of a single blog.
 * Multiple concurrent downloads of different blogs.
-* Internationalization support (currently available: zh, ru, de, fr, es).
+* Internationalization support (currently available: de, es, fr, ru, zh).
 * A download queue.
 * Autosave of the queuelist.
 * Save, clear and restore the queuelist.
@@ -61,4 +61,4 @@ _*1 [Tumblr raw image files are inaccessible as of August 10, 2018](https://gith
 Latest releases can be found [here](https://github.com/TumblThreeApp/TumblThree/releases).
 
 ## Screenshot:
-![TumblThree Main UI](images/tumblthree.png "TumblThree Main UI")
+[![TumblThree Main UI](images/tumblthree.png)](images/tumblthree.png)
