@@ -26,7 +26,7 @@ Possible things to improve.
 
 * Code refactoring.
 * Unit tests.
-* Documentation (probably my task).
+* Documentation (code, user manuals, web page).
 * Redesign and clean up the database structures?
   * We could implement a FolderBrowser that allows to browse through the filesystem from the main user interface, thus working like a FTP client. It loads and updates the blog manager with the databases found in the corresponding directory and you can submit them to the queue.
 * Use more events driven code, for example in the AbstractDownloader.cs
