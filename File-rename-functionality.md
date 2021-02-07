@@ -10,7 +10,7 @@ The following tokens can be used in the filename template and are replaced:
   %p  post title (shorted if needed…)
   %i  post id
   %n  image index (of photo sets)
-  %t  for all tags (cute+cats,big+dogs)
+  %t  for all tags (comma separated)
   %r  for reblog ("" / "reblog")
   %s  slug (last part of a post's url)
   %k  reblog-key
