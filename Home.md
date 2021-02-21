@@ -1,6 +1,7 @@
 # TumblThree - A Tumblr Blog Backup Application
 
-TumblThree is the code rewrite of [TumblTwo](https://github.com/johanneszab/TumblTwo), a free and open source Tumblr blog backup application, using C# with WPF and the MVVM pattern. It uses the [Win Application Framework (WAF)](https://github.com/jbe2277/waf). It downloads photo, video, audio and text posts from a given tumblr blog.
+TumblThree is a free and open source Tumblr blog backup application. It downloads photo, video, audio and text posts from a given tumblr blog.<br/>
+It is the code rewrite of [TumblTwo](https://github.com/johanneszab/TumblTwo), using the [Win Application Framework (WAF)](https://github.com/jbe2277/waf) and C# with WPF and the MVVM pattern.
 
 ## Features:
 
@@ -11,16 +12,19 @@ TumblThree is the code rewrite of [TumblTwo](https://github.com/johanneszab/Tumb
 * A download queue.
 * Autosave of the queuelist.
 * Save, clear and restore the queuelist.
-* A clipboard monitor that detects *http(s):// .tumblr.com* urls in the clipboard (copy and paste) and automatically adds the blog to the bloglist.
+* A clipboard monitor that detects *http(s)://blogname.tumblr.com* urls in the clipboard (copy and paste) and automatically adds the blog to the bloglist.
 * A settings panel (change download location, turn preview off/on, define number of concurrent downloads, set the imagesize of downloaded pictures, set download defaults, enable portable mode, etc.).
+* Uses Windows proxy settings.
 * Allows to set a http proxy.
 * A bandwidth throttler.
 * An option to download an url list instead of the actual files.
 * Set a start time for a automatic download (e.g. during nights).
 * An option to skip the download of a file if it has already been downloaded before in any currently added blog.
+* Change the blog settings of multiple selected blogs at once
 * Uses SSL connections.
 * Preview of photos & videos.
 * Taskbar buttons and key bindings.
+* File rename functionality
 
 ### Blog backup/download:
 
@@ -28,7 +32,7 @@ TumblThree is the code rewrite of [TumblTwo](https://github.com/johanneszab/Tumb
 * Download meta information for photo, video and audio posts.
 * Downloads inlined photos and videos (e.g. photos embedded in question&answer posts).
 * Download of all image sizes possible (SVC, API only for newer blogs, higher resolution not possible for old blogs *1).
-* Support for downloading Imgur.com, Gfycat.com and Webmshare.com linked files in tumblr posts.
+* Support for downloading Imgur, Gfycat, Webmshare, Mixtape, Lolisafe, Uguu, Catbox and SafeMoe linked files in tumblr posts.
 * Download of safe mode/NSFW blogs.
 * Allows to download only original content of the blog and skip reblogged posts.
 * Can download only tagged posts.
@@ -47,6 +51,7 @@ TumblThree is the code rewrite of [TumblTwo](https://github.com/johanneszab/Tumb
 
 * A downloader for downloading photos and videos from the tumblr search (e.g. http://www.tumblr.com/search/my+keywords).
 * Download of all image sizes possible (SVC, API only for newer blogs, higher resolution not possible for old blogs *1).
+* Can download only specific blog pages instead of the whole blog.
 
 ### Tumblr tag search backup/download:
 
