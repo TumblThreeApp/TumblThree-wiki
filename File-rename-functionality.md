@@ -20,7 +20,7 @@ Mandatory tokens (if not using token %f) to make filenames unique:
 ```
 Lower and upper case letters can be used to specify a token.
 
-Be aware that the filename template should contain a uniqueness. Where as %f is the most unique resp. the old file naming style. But a combination out of `%d`, `%u`, `%i` or `%k` plus `%n` is also good. For that reason the template must end with either `%x` or `%y`, except when the old file naming style is used.
+Be aware that the filename template should contain a uniqueness. Where as `%f` is the most unique resp. the old file naming style. But a combination out of `%d`, `%u`, `%i` or `%k` plus `%n` is also good. For that reason the template must end with either `%x` or `%y`, except when the old file naming style is used.
 
 An empty field will be automatically reverted to the default template of `%f` which is the old file naming style.
 
