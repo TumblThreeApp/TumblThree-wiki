@@ -41,9 +41,9 @@ It is the code rewrite of [TumblTwo](https://github.com/johanneszab/TumblTwo), u
 * Can download hidden blogs (login required / dash board blogs).
 * Can download password protected blogs (of non-hidden blogs).
 
-### Liked/by backup/download:
+### Liked/by and Likes backup/download:
 
-* A downloader for downloading "liked by" photos and videos instead of a tumblr blog (e.g. https://www.tumblr.com/liked/by/wallpaperfx/) (login required).
+* A downloader for downloading "liked by" (e.g. https://www.tumblr.com/liked/by/wallpaperfx/) and "likes" (e.g. https://www.tumblr.com/likes) photos and videos instead of a tumblr blog (login required).
 * Download of all image sizes possible (SVC, API only for newer blogs, higher resolution not possible for old blogs *1).
 * Allows to download posts in a defined time span. 
 
@@ -63,7 +63,7 @@ _*1 [Tumblr raw image files are inaccessible as of August 10, 2018](https://gith
 
 ## Download:
 
-Latest releases can be found [here](https://github.com/TumblThreeApp/TumblThree/releases).
+Latest versions can be found [here](https://github.com/TumblThreeApp/TumblThree/releases).
 
 ## Screenshot:
 [![TumblThree Main UI](images/tumblthree.png)](images/tumblthree.png)
