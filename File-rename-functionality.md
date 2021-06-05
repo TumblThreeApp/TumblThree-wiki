@@ -5,6 +5,7 @@ In the settings a filename template can be specified. This setting is taken over
 The following tokens can be used in the filename template and are replaced:
 ```
   %f  original filename (default)
+  %b  blog name
   %d  post date (yyyyMMddHHmmss)
   %u  post timestamp (number)
   %p  post title (shorted if needed…)
