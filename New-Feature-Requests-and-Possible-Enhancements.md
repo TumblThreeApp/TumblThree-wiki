@@ -6,14 +6,9 @@
 
 * Redesign the UI layout and the controls.
 
-* Re-download of a blog.
-
-* File rename function. Multiple possible implementation variants:
-  * Freely defined pattern based on user input.
-  * After posts name.
-  * Add a leading number indicating the blogs post order.
-
 * Implement a filesystem watcher that reads .txt files from a user-definable folder with new instructions. E.g. download blog X with tags Y now.
+
+* Integration of an auto-updater
 
 * Theme support.
 
