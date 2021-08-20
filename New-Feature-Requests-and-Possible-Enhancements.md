@@ -35,7 +35,8 @@ Possible things to improve.
 It should be quite straight forward now to add new sites like 500px, instagram, or twitter.
 The downloader and most of the UI should be able to take different websites.
 
-You can check [this commit](https://github.com/johanneszab/TumblThree/commit/efc9d903f49864ef1424b5496fabce0f0780a68d) for my addition of the  Tumblr tag search downloader for the most recent example. Older examples include the [Tumblr liked-by downloader](https://github.com/johanneszab/TumblThree/commit/d11375407f462e32ac3ccacb03e7b0861bbaaa39), the [Tumblr downloader for private blogs](https://github.com/johanneszab/TumblThree/commit/8ed1e11efc7c110931b29147460acfe814d4dc84) and the [Tumblr search downloader](https://github.com/TumblThreeApp/TumblThree/commit/cd6383749d28151c49cb3b59f16434f76bf84bfb). 
+You can check [this commit](https://github.com/TumblThreeApp/TumblThree/commit/d1823548493b37baded60db35492f9f3040ecfe5) for the addition of the Twitter downloader as the most recent example. This commit also contains code refactorings to make the naming of the classes and methods more general.
+You can also check [this commit](https://github.com/johanneszab/TumblThree/commit/efc9d903f49864ef1424b5496fabce0f0780a68d) for the addition of the Tumblr tag search downloader as the previous example. Older examples include the [Tumblr liked-by downloader](https://github.com/johanneszab/TumblThree/commit/d11375407f462e32ac3ccacb03e7b0861bbaaa39), the [Tumblr downloader for private blogs](https://github.com/johanneszab/TumblThree/commit/8ed1e11efc7c110931b29147460acfe814d4dc84) and the [Tumblr search downloader](https://github.com/TumblThreeApp/TumblThree/commit/cd6383749d28151c49cb3b59f16434f76bf84bfb). 
 
 In essence, you have to do:
 

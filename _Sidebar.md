@@ -13,3 +13,4 @@
   * [How to Open a TumblThree Pull Request?](How-to-Open-a-TumblThree-Pull-Request？)
   * [New Feature Requests and Possible Enhancements](New-Feature-Requests-and-Possible-Enhancements)
   * [Translations](Translations)
+  * [Code layout](Code-layout)
