@@ -1,6 +1,8 @@
-# TumblThree - A Tumblr Blog Backup Application
+<img align="left" width="60" height="60" src="https://github.com/TumblThreeApp/TumblThree/wiki/images/tumblthree_icon.png" alt="TumblThree Logo">
 
-TumblThree is a free and open source Tumblr blog backup application. It downloads photo, video, audio and text posts from a given tumblr blog.<br/>
+# TumblThree - A Tumblr and Twitter Blog Backup Application
+
+TumblThree is a free and open source Tumblr and Twitter blog backup application. It downloads photo, video, audio and text posts from a given blog.<br/>
 It is the code rewrite of [TumblTwo](https://github.com/johanneszab/TumblTwo), using the [Win Application Framework (WAF)](https://github.com/jbe2277/waf) and C# with WPF and the MVVM pattern.
 
 ## Features:
@@ -25,6 +27,10 @@ It is the code rewrite of [TumblTwo](https://github.com/johanneszab/TumblTwo), u
 * Preview of photos & videos.
 * Taskbar buttons and key bindings.
 * File rename functionality
+* :star: Download of Twitter blogs 🆕
+* Image viewer with slideshow mode 🆕
+* Automated update process 🆕
+* Group blogs into collections 🆕
 
 ### Blog backup/download:
 
@@ -60,6 +66,14 @@ It is the code rewrite of [TumblTwo](https://github.com/johanneszab/TumblTwo), u
 * Allows to download posts in a defined time span.
 
 _*1 [Tumblr raw image files are inaccessible as of August 10, 2018](https://github.com/johanneszab/TumblThree/issues/261)_
+
+### 🆕 Twitter Blog backup/download:
+
+* Download of photo, video and text posts of (public) blogs.
+* Download meta information for photo and video posts.
+* Allows to download only original content of the blog and skip reblogged posts.
+* Can download only tagged posts.
+* Allows to download blog posts in a defined time span.
 
 ## Download:
 

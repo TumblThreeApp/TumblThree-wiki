@@ -15,10 +15,10 @@
   1. Add the blog url.
   2. Open the blog in the details tab, enter the password in the Password textbox.
 * For downloading hidden blogs (login required blogs), you have to do some steps:
-  1. Go to Settings, click the Authenticate button. Logon to tumblr using an account. The window/browser should automatically close after the login indicating a successful authentication. TumblThree will use the Internet Explorer cookies for authentication. Alternatively, you can also use the Internet Explorer directly for logging in to the Tumblr.com network.
+  1. Go to Settings, click the Authenticate button. Logon to tumblr using an account. After successful logon you can close the window. The cookies are cached and normally you don't need to repeat this for a while.
   2. Add the blog url.
 * For downloading liked photos and videos, you'll have to do some steps:
-  1. Go to Settings, click the Authenticate button. Logon to tumblr using an account. The window/browser should automatically close after the login indicating a successful authentication. TumblThree will use the Internet Explorer cookies for authentication. Alternatively, you can also use the Internet Explorer directly for logging in to the Tumblr.com network.
+  1. Go to Settings, click the Authenticate button. Logon to tumblr using an account. After successful logon you can close the window. The cookies are cached and normally you don't need to repeat this for a while.
   2. Add the blog url including the liked/by string in the url (e.g. https://www.tumblr.com/liked/by/wallpaperfx/).
   3. For downloading your own likes, make sure you've (temporarily) enabled the following options in your blogs settings (i.e. https://www.tumblr.com/settings/blog/yourblogname):
       * Likes -> Share posts you like (to enable the publicly visible liked/by page)
@@ -26,7 +26,7 @@
 * For downloading photos and videos from the tumblr search, you'll have to do some steps:
   1. Add the search url including your key words separated by plus signs (+) in the url (e.g. https://www.tumblr.com/search/my+special+tags).
 * For downloading photos and videos from the tumblr tag search, you'll have to do some steps:
-  1. Go to Settings, click the Authenticate button. Logon to tumblr using an account. The window/browser should automatically close after the login indicating a successful authentication. TumblThree will use the Internet Explorer cookies for authentication. Alternatively, you can also use the Internet Explorer directly for logging in to the Tumblr.com network.
+  1. Go to Settings, click the Authenticate button. Logon to tumblr using an account. After successful logon you can close the window. The cookies are cached and normally you don't need to repeat this for a while.
   2. Add the search url including your tags separated by plus signs (+) in the url (e.g. https://www.tumblr.com/tagged/my+special+tags).
 * Key Mappings:
   * double click on a blog adds it to the queue

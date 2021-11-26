@@ -3,9 +3,10 @@
 * [Home](Home)
 * [Usage](How-to-use-the-Application)
   * [Getting Started](Getting-Started)
+  * [Login/Authenticate does not work](Login／Authenticate-does-not-work)
+  * [How to update the Application?](How-to-update-the-Application？)
   * [Change the blog settings of multiple selected blogs at once](Change-the-blog-settings-of-multiple-selected-blogs-at-once)
   * [File rename functionality](File-rename-functionality)
-  * [How to update the Application?](How-to-update-the-Application？)
   * [Further Insights](Insights)
   * [New Feature Requests](New-Feature-Requests-and-Possible-Enhancements#ideas-to-includeenhance-the-application)
 * Development

@@ -8,8 +8,6 @@
 
 * Implement a filesystem watcher that reads .txt files from a user-definable folder with new instructions. E.g. download blog X with tags Y now.
 
-* Integration of an auto-updater
-
 * Theme support.
 
 * Move the blog index (i.e. .tumblr) files to a separate, user definable folder?
