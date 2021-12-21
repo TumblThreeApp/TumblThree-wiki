@@ -10,7 +10,7 @@ It is the code rewrite of [TumblTwo](https://github.com/johanneszab/TumblTwo), u
 * Source code at github (Written in C# using WPF and MVVM).
 * Multiple concurrent downloads of a single blog.
 * Multiple concurrent downloads of different blogs.
-* Internationalization support (currently available: de, es, fr, ru, zh).
+* Internationalization support (several languages available).
 * A download queue.
 * Autosave of the queuelist.
 * Save, clear and restore the queuelist.
@@ -78,6 +78,8 @@ _*1 [Tumblr raw image files are inaccessible as of August 10, 2018](https://gith
 ## Download:
 
 Latest versions can be found [here](https://github.com/TumblThreeApp/TumblThree/releases).
+
+Please keep in mind that probably only the latest version is functioning properly since the platforms evolve and from time to time change their data structures which makes changes in TumblThree necessary again. So update your application regularly.
 
 ## Screenshot:
 [![TumblThree Main UI](images/tumblthree.png)](images/tumblthree.png)
