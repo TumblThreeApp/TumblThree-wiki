@@ -6,7 +6,10 @@ The following tokens can be used in the filename template and are replaced:
 ```
   %f  original filename (default)
   %b  blog name
-  %d  post date (yyyyMMddHHmmss)
+  %d  post date (yyyyMMdd)
+  %e  post date and time (yyyyMMddHHmmss)
+  %g  post date in GMT (yyyyMMdd)
+  %h  post date and time in GMT (yyyyMMddHHmmss)
   %u  post timestamp (number)
   %p  post title (shorted if needed…)
   %i  post id

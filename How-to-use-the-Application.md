@@ -7,7 +7,7 @@
 * A light blue bar left to the blog in the queue indicates a actively downloading blog.
 * The blog manager on the left side also indicates the state of each blog. A red background shows an offline blog, a green background an actively crawling blog and a purple background an enqueued blog.
 * You change the download location, the number of concurrent connections, the default backup settings for each newly added blog and various other settings in the 'Settings'. 
-* In the Details window you can view statistics of your blog and set blog specific options. You can here what kind of post type (photo, video, audio, text, conversation, quote, link) to download.
+* In the Details window you can view statistics of your blog and set blog specific options. You can choose here what type of posts (photo, video, audio, text, conversation, quote, link) to download.
 * For downloading only tagged posts, you'll have to do some steps:
   1. Add the blog url.
   2. Open the blog in the details tab, enter the tags in the Tags textbox in a comma separated list without the leading hash (#) sign. E.g. _great big car,bears_ would search for images that are tagged for either a _great big car_ or _bears_ or both.
