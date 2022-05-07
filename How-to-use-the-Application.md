@@ -3,9 +3,9 @@
 * Extract the .zip file and run the application by double clicking TumblThree.exe.
 * Copy the url of any tumblr.com blog you want to backup from into the textbox at the bottom left. Afterwards, click on 'Add Blog' on the right side of it.
 * Alternatively, if you copy (ctrl-c) a whole _tumblr.com_ blog url from the address bar/a text file, the clipboard monitor from TumblThree will detect it and automatically add the blog.
-* To start the download process, click on 'Crawl'. The application will regularly check for (new) blogs in the queue and start processing them, until you stop the application by pressing 'Stop'. So, you can either add blogs to the queue via 'Add to Queue' or double click first and then click 'Crawl', or you start the download process first and add blogs to the queue afterwards.
+* To start the download process, click on 'Download'. The application will regularly check for (new) blogs in the queue and start processing them, until you stop the application by pressing 'Stop'. So, you can either add blogs to the queue via 'Add to Queue' or double click first and then click 'Download', or you start the download process first and add blogs to the queue afterwards.
 * A light blue bar left to the blog in the queue indicates a actively downloading blog.
-* The blog manager on the left side also indicates the state of each blog. A red background shows an offline blog, a green background an actively crawling blog and a purple background an enqueued blog.
+* The blog manager on the left side also indicates the state of each blog. A red background shows an offline blog, a green background an actively downloading blog and a purple background an enqueued blog.
 * You change the download location, the number of concurrent connections, the default backup settings for each newly added blog and various other settings in the 'Settings'. 
 * In the Details window you can view statistics of your blog and set blog specific options. You can choose here what type of posts (photo, video, audio, text, conversation, quote, link) to download.
 * For downloading only tagged posts, you'll have to do some steps:
@@ -31,9 +31,9 @@
 * Key Mappings:
   * double click on a blog adds it to the queue
   * drag and drop of blogs from the manager (left side) to the queue.
-  * space -- start crawl
-  * ctrl-space -- pause crawl
-  * shift-space -- stop crawl
+  * space -- start download
+  * ctrl-space -- pause download
+  * shift-space -- stop download
   * del -- remove blog from queuelist
   * shift-del -- remove blog from blogmanager.
   * ctrl-shift-g -- manually trigger the garbage collection
