@@ -1,6 +1,6 @@
 ## Ideas to include/enhance the application ##
 
-* Parse Options from the commandline and add non-UI mode.
+* Parse options from the commandline and add non-UI mode.
 
 * Maybe add 500px, instagram, flickr, pinterest or other tumblr similar pages?
 
@@ -8,7 +8,7 @@
 
 * Implement a filesystem watcher that reads .txt files from a user-definable folder with new instructions. E.g. download blog X with tags Y now.
 
-* Theme support.
+* Theme support
 
 * Move the blog index (i.e. .tumblr) files to a separate, user definable folder?
 
@@ -17,16 +17,16 @@
 ## Code Enhancements ##
 Possible things to improve.
 
-* Code refactoring.
-* Unit tests.
-* Documentation (code, user manuals, web page).
+* Code refactoring
+* Unit tests
+* Documentation (code, user manuals, web page)
 * Redesign and clean up the database structures?
   * We could implement a FolderBrowser that allows to browse through the filesystem from the main user interface, thus working like a FTP client. It loads and updates the blog manager with the databases found in the corresponding directory and you can submit them to the queue.
 * Use more events driven code, for example in the AbstractDownloader.cs
 * In the AbstractDownloader.cs and Crawler classes, use TPL Dataflow/Actor model instead of creating a huge list of Tasks using a blockingcollection/getconsumingenumerable.
 * Use HttpClient instead of HttpWebRequests for downloading.
 * Better handling of the [TimeoutExceptions](https://github.com/TumblThreeApp/TumblThree/blob/master/src/TumblThree/TumblThree.Applications/Extensions/TaskTimeoutExtension.cs) that were introduced to terminate dead connections in wonky internet connections. I.e. notify the user that a connection dropped and act accordingly.
-* ..
+* ...
 
 ## How to add new website crawler ##
 
