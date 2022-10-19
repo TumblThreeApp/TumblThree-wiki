@@ -27,11 +27,23 @@ jobs:
         with:
           token: ${{secrets.GITHUB_TOKEN}}
           fetch-depth: 0
+      - name: Setup SSH Keys and known_hosts
+        env:
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        run: |
+          mkdir -p /home/runner/.ssh
+          ssh-keyscan github.com >> /home/runner/.ssh/known_hosts
+          echo "${{ secrets.TT_WIKI_SSH_KEY }}" > /home/runner/.ssh/github_actions
+          chmod 600 /home/runner/.ssh/github_actions
+          ssh-agent -a $SSH_AUTH_SOCK > /dev/null   
+          ssh-add /home/runner/.ssh/github_actions
       - name: Merge and push
         env:
-          tt_wiki_key: ${{ secrets.TT_WIKI_KEY }}
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
         run: |
-          git remote add upstream https://$tt_wiki_key@github.com/TumblThreeApp/TumblThree.wiki.git > /dev/null 2>&1
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote add upstream git@github.com:TumblThreeApp/TumblThree.wiki.git > /dev/null 2>&1
           git fetch upstream
           git merge upstream/master --no-edit
           git push origin HEAD:master > /dev/null 2>&1
