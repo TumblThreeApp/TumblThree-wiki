@@ -1,8 +1,8 @@
 ## Application Usage:
 
 * Extract the .zip file and run the application by double clicking TumblThree.exe.
-* Copy the url of any tumblr.com blog you want to backup from into the textbox at the bottom left. Afterwards, click on 'Add Blog' on the right side of it.
-* Alternatively, if you copy (ctrl-c) a whole _tumblr.com_ blog url from the address bar/a text file, the clipboard monitor from TumblThree will detect it and automatically add the blog.
+* Copy the url of any tumblr.com blog (format: &lt;blogname&gt;.tumblr.com) you want to backup from into the textbox at the bottom left. Afterwards, click on 'Add Blog' on the right side of it.
+* Alternatively, if you copy (ctrl-c) a whole _&lt;blogname&gt;.tumblr.com_ blog url from the address bar/a text file, the clipboard monitor from TumblThree will detect it and automatically add the blog.
 * To start the download process, click on 'Download'. The application will regularly check for (new) blogs in the queue and start processing them, until you stop the application by pressing 'Stop'. So, you can either add blogs to the queue via 'Add to Queue' or double click first and then click 'Download', or you start the download process first and add blogs to the queue afterwards.
 * A light blue bar left to the blog in the queue indicates a actively downloading blog.
 * The blog manager on the left side also indicates the state of each blog. A red background shows an offline blog, a green background an actively downloading blog and a purple background an enqueued blog.
@@ -28,6 +28,10 @@
 * For downloading photos and videos from the tumblr tag search, you'll have to do some steps:
   1. Go to Settings, click the Authenticate button. Logon to tumblr using an account. After successful logon you can close the window. The cookies are cached and normally you don't need to repeat this for a while.
   2. Add the search url including your tags separated by plus signs (+) in the url (e.g. https://www.tumblr.com/tagged/my+special+tags).
+* For downloading Twitter blogs, you'll have to enter the url in the format:<br>
+  &nbsp;&nbsp;&nbsp;`twitter.com/<blogname>`
+* For downloading newTumbl blogs, you'll have to enter the url in the format:<br>
+  &nbsp;&nbsp;&nbsp;`<blogname>.newtumbl.com`
 * Key Mappings:
   * double click on a blog adds it to the queue
   * drag and drop of blogs from the manager (left side) to the queue.
