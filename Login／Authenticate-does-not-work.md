@@ -1,5 +1,13 @@
 If you have problems authenticating to the Tumblr network please have a look on the following common issues.
 
+## TumblThree 2.9.0 / 2.9.1
+
+### Authenticate window shows a white screen
+
+If the authenticate window opens, but shows a white screen instead of the login page, verify that you have the "[MS Edge Webview2 Runtime](https://go.microsoft.com/fwlink/p/?LinkId=2124703)" installed. If you have your installation folder in a protected location (e.g. "Program Files"), you should either create and give write access to the subfolder "TumblThree.exe.WebView2" or just use a newer version.
+
+## TumblThree up to version 2.8.3
+
 ### Authenticate does not work / crash
 
 If you experience crashes right before or while logging in, it may be that on your system the "[Visual C++ Redistributable 2015-2022](https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0)" ([x86](https://aka.ms/vs/17/release/vc_redist.x86.exe) or [x64](https://aka.ms/vs/17/release/vc_redist.x64.exe)) is missing. You can download it from Microsoft.<br/>
