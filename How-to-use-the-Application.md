@@ -30,8 +30,6 @@
   2. Add the search url including your tags separated by plus signs (+) in the url (e.g. https://www.tumblr.com/tagged/my+special+tags).
 * For downloading Twitter blogs, you'll have to enter the url in the format:<br>
   &nbsp;&nbsp;&nbsp;`twitter.com/<blogname>`
-* For downloading newTumbl blogs, you'll have to enter the url in the format:<br>
-  &nbsp;&nbsp;&nbsp;`<blogname>.newtumbl.com`
 * Key Mappings:
   * double click on a blog adds it to the queue
   * drag and drop of blogs from the manager (left side) to the queue.
