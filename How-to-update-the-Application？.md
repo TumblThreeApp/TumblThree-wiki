@@ -3,7 +3,8 @@ From time to time on app start TumblThree notifies you that there is a newer ver
 You can either let TumblThree download and install the new version for you or, if you prefer, 
 you can do it manually:
 
-* Just click on yes and the current zip archive will be downloaded.
+* Just click on No.
+* Download the current zip archive from the [releases page](https://github.com/TumblThreeApp/TumblThree/releases).
 * After its download go to the folder (e.g. Downloads) where you saved it.
 * Right click the zip archive (e.g. TumblThree-v1.6.3-x64-Application.zip) and select "Extract All..." to use the windows built-in tool to extract the files, or use any other archive utility you like.
 * Afterwards you will see a folder named "TumblThree", open it and, depending on the archive utility you have used, you might have to enter a second folder.
