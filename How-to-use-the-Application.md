@@ -1,7 +1,7 @@
 ## Application Usage:
 
 * Extract the .zip file and run the application by double clicking TumblThree.exe.
-* Copy the url of any tumblr.com blog (format: &lt;blogname&gt;.tumblr.com) you want to backup from into the textbox at the bottom left. Afterwards, click on 'Add Blog' on the right side of it.
+* Copy the url of any tumblr.com blog (format: &lt;blogname&gt;.tumblr.com or www.tumblr.com/&lt;blogname&gt;) you want to backup from into the textbox at the bottom left. Afterwards, click on 'Add Blog' on the right side of it.
 * Alternatively, if you copy (ctrl-c) a whole _&lt;blogname&gt;.tumblr.com_ blog url from the address bar/a text file, the clipboard monitor from TumblThree will detect it and automatically add the blog.
 * To start the download process, click on 'Download'. The application will regularly check for (new) blogs in the queue and start processing them, until you stop the application by pressing 'Stop'. So, you can either add blogs to the queue via 'Add to Queue' or double click first and then click 'Download', or you start the download process first and add blogs to the queue afterwards.
 * A light blue bar left to the blog in the queue indicates a actively downloading blog.
