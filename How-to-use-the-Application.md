@@ -28,8 +28,10 @@
 * For downloading photos and videos from the tumblr tag search, you'll have to do some steps:
   1. Go to Settings, click the Authenticate button. Logon to tumblr using an account. After successful logon you can close the window. The cookies are cached and normally you don't need to repeat this for a while.
   2. Add the search url including your tags separated by plus signs (+) in the url (e.g. https://www.tumblr.com/tagged/my+special+tags).
-* For downloading Twitter blogs, you'll have to enter the url in the format:<br>
-  &nbsp;&nbsp;&nbsp;`twitter.com/<blogname>`
+* For downloading Twitter/X blogs, you'll have to enter the url in the format:<br>
+  &nbsp;&nbsp;&nbsp;`x.com/<blogname>`
+* For downloading Bluesky blogs, you'll have to enter the url in the format:<br>
+  &nbsp;&nbsp;&nbsp;`https://bsky.app/profile/<blogname>.bsky.social`
 * Key Mappings:
   * double click on a blog adds it to the queue
   * drag and drop of blogs from the manager (left side) to the queue.
