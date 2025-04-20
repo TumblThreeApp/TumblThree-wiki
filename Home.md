@@ -18,16 +18,16 @@ It is the code rewrite of [TumblTwo](https://github.com/johanneszab/TumblTwo), u
 * A settings panel (change download location, turn preview off/on, define number of concurrent downloads, set the imagesize of downloaded pictures, set download defaults, enable portable mode, etc.)
 * An option to skip the download of a file if it has already been downloaded before in any currently added blog
 * Preview of photos & videos
-* Download of Gif instead of WebP/Gifv images from Tumblr
 * File rename functionality
-* :star: Download of Twitter blogs
-* Image viewer with slideshow mode 🆕
-* Automated update process 🆕
-* Group blogs into collections 🆕
-* Choice of download format for .pnj links 🆕
+* Download of Twitter/X blogs
+* Image viewer with slideshow mode
+* Automated update process
+* Group blogs into collections
+* :star: Download of Bluesky (user feed) blogs 🆕
 <details>
   <summary>click for more</summary><br/>
 
+* Download of Gif instead of WebP/Gifv images from Tumblr
 * Internationalization support (several languages available)
 * A download queue
 * Autosave of the queuelist
@@ -39,14 +39,15 @@ It is the code rewrite of [TumblTwo](https://github.com/johanneszab/TumblTwo), u
 * Change of blog settings of multiple selected blogs at once
 * Uses SSL connections
 * Taskbar buttons and key bindings
+* Choice of download format for .pnj links
 </details>
 
 ### Backup/download of <sub><sup>(click names to expand)</sup></sub>
 * <details><summary><b>Blogs / Hidden blogs</b></summary>
 
   * Download of photo, video (only tumblr.com hosted), text, audio, quote, conversation, link and question posts
-  * Download of meta information for photo, video and audio posts
-  * Download of inlined photos and videos (e.g. photos embedded in question&answer posts)
+  * Download meta information for photo, video and audio posts
+  * Download inlined photos and videos (e.g. photos embedded in question&answer posts)
   * Download of all image sizes possible (SVC, API only for newer blogs, higher resolution not possible for old blogs *1)
   * Support for downloading Imgur, Gfycat, Webmshare, Uguu and Catbox linked files in tumblr posts
   * Download of safe mode/NSFW blogs
@@ -78,14 +79,23 @@ It is the code rewrite of [TumblTwo](https://github.com/johanneszab/TumblTwo), u
   * Allows to download posts in a defined time span
   
   </details>
-* <details><summary><b>Twitter Blogs</b></summary>
+* <details><summary><b>Twitter/X Blogs</b></summary>
 
   * Download of photo, video and text posts of blogs
-  * Download of meta information for photo and video posts
+  * Download meta information for photo and video posts
   * Allows to download only original content of the blog and skip reblogged posts
   * Can download only tagged posts
   * Allows to download blog posts in a defined time span
   
+  </details>
+* <details><summary><b>Bluesky Blogs</b></summary>
+
+  * Download of photo, video and text posts of blogs
+  * Download meta information for photo and video posts
+  * Allows to download only original content of the blog and skip reblogged posts
+  * Can download only tagged posts
+  * Allows to download blog posts in a defined time span
+
   </details>
 
 _*1 [Tumblr raw image files are inaccessible as of August 10, 2018](https://github.com/johanneszab/TumblThree/issues/261)_
@@ -102,7 +112,7 @@ Read our wiki page about [Application Usage](wiki/How-to-use-the-Application).
 
 The default settings should cover most users. You should only have to change the download location and the kind of posts you want to download. You can find more information in [Getting Started](wiki/Getting-Started) and [Insights](wiki/Insights).
 
-## Feedback and Bug reports
+## Feedback and Bug Reports
 
 If you like TumblThree, give it a star <img src="wiki/images/star.png" alt="star" height="16"/> (at the right upper corner of the page)!
 
