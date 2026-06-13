@@ -6,6 +6,7 @@
   * [Login/Authenticate does not work](Login／Authenticate-does-not-work)
   * [How to update the Application?](How-to-update-the-Application？)
   * [How to uninstall the Application?](How-to-Uninstall-the-Application？)
+  * [Setting up TumblThree under Wine in Linux](Setting-up-TumblThree-under-Wine-in-Linux)
   * [Change the blog settings of multiple selected blogs at once](Change-the-blog-settings-of-multiple-selected-blogs-at-once)
   * [File rename functionality](File-rename-functionality)
   * [Further Insights](Insights)
